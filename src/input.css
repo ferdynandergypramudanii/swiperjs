@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+  @apply max-w-[90%];
+}
+
+.before-card {
+  @apply max-w-[30%];
+}
+
+.button-next-c {
+  @apply hidden xl:block lg:absolute top-40 right-10 z-20 border rounded-full w-8 text-center shadow-md;
+}
+
+.button-prev-c {
+  @apply hidden xl:block lg:absolute top-40 left-10 z-20 border rounded-full w-8 text-center shadow-md;
+}
